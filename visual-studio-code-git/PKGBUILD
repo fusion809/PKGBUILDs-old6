@@ -9,8 +9,7 @@ url='https://code.visualstudio.com/'
 license=('MIT')
 makedepends=('npm' 'gulp' 'python2')
 depends=('gtk2' 'gconf' 'alsa-lib' 'libnotify' 'libxtst' 'nodejs' 'nss')
-conflicts=('vscode-oss' 'visual-studio-code-oss')
-provides=('vscode-oss' 'visual-studio-code-oss')
+provides=('visual-studio-code-git')
 
 source=("git+https://github.com/Microsoft/vscode"
         "${pkgname}.desktop"
