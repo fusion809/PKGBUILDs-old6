@@ -20,11 +20,20 @@ The `atom-editor-dev` package builds the 1.9.0-dev branch of Atom and places its
 ## brackets
 The `brackets` package has a few minor improvements over the one in the AUR. For example, it uses a customized desktop file, with support for several other text files. 
 
+## codebox
+The `codebox` PKGBUILD is provided here with tweaks to make it build properly, unlike the one it is derived from in the AUR. 
+
 ## linux-ck
 The `linux-ck` package is kept here, it was taken from the AUR with the BFQ enabled. 
 
 ## messengerfordesktop
 The `messengerfordesktop` provides the latest version of Sytten's MessengerForDesktop fork. 
+
+## shadow-icon-theme{,-git}
+These packages provide the [Shadow icon theme](https://github.com/rudrab/Shadow). 
+
+## textadept
+This package provides the Textadept text editor. 
 
 ## Vim
 I have also included Vim-related packages, as [Vim updates](https://github.com/vim/vim/releases) come out daily or even hourly, so it is unrealistic to expect the maintainers of the `gvim` and `vim` packages at https://www.archlinux.org/packages/extra/x86_64/gvim and https://www.archlinux.org/packages/extra/x86_64/vim, respectively, to keep them constantly up-to-date. To install the latest gVim using this repository I recommend you run:
@@ -36,3 +45,6 @@ makepkg -si --noconfirm
 ```
 
 The `gvim-git` package in this repository is a combination of the `gvim-git` and `vim-runtime-git` packages in the AUR. I merged these packages to save bandwidth and disk space, as both PKGBUILDs clone the same [GitHub repository](https://github.com/vim/vim). Likewise the `gvim` package in this repository is also a combination of the `gvim` and `vim-runtime` packages in the `[extra]` pacman repository, except it is updated more frequently. I have also added the `gvim` package to my [OBSAEB](https://build.opensuse.org/package/show/home:fusion809:arch_extra/gvim) it is also here because the OBS usually takes several hours before any commits I push there will result in an updated package in this repository.
+
+## visual-studio-code-oss
+This PKGBUILD builds the Visual Studio Code (VScode) text editor from source code. It fixes an error I noticed in the `visual-studio-code-oss` PKGBUILD of the AUR, that prevented it from building correctly and also provides a desktop configuration file with `MimeType` support for several extra file formats. 
