@@ -1,9 +1,9 @@
-# Maintainer: Michael Hansen <zrax0111 gmail com>
+# Maintainer: Brenton Horne <brentonhorne77 at gmail dot com>
 
 pkgname=visual-studio-code-oss
 pkgdesc='Visual Studio Code for Linux, Open Source version'
 pkgver=1.0.0
-pkgrel=1
+pkgrel=2
 arch=('i686' 'x86_64')
 url='https://code.visualstudio.com/'
 license=('MIT')
