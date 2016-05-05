@@ -26,7 +26,7 @@ source=("$pkgname-EULA"
 source_i686=("http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20${pkgver}.tar.bz2")
 source_x86_64=("http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20${pkgver}%20x64.tar.bz2")
 sha256sums=('43aa2cf3becee23697177c6e6ecd4fc2c4b459499631bfdb2533cdb60c27530e'
-            '61ec54a900adf0a38096c89ee4a2e2706a9a33e434101216d92aefa5b84fb5bc'
+            '7f82e35daa080ecf3fc374100cbb4ce5d0f9194d7263576c090357751fafbe69'
             '765c8a65ef429dc81a983d14d94c97a2d185575d74e702861ad3e374e2759338'
             '1c97a90bc22107e50f04f77a0115f4ec890d5c6a373ac4c560e8fb87259e92de'
             '4196f3c3894f455a78a65170209fc948b01a7448304d8c39bc29d37852b8c73b'

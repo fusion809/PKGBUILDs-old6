@@ -16,7 +16,7 @@ source=("https://github.com/Microsoft/vscode/archive/${pkgver}.tar.gz"
         "${pkgname}.desktop"
         'product_json.patch')
 sha1sums=('fa234ec5a65b1dfd40fabd9d8d3e1ebf16c6ae11'
-          '3e772fdb65cba01eef061273fef367db9c2c5554'
+          '29340e482d9517212c31fa2d33b630ca32fc4d3e'
           '7a318e807fd2ba145539d8ddcb725e7ecf1d00fa')
 
 case "$CARCH" in
@@ -42,7 +42,7 @@ build() {
     cd "${srcdir}/vscode-${pkgver}"
 
     ./scripts/npm.sh install
-    node --max_old_space_size=2000000 /usr/bin/gulp vscode-linux-${_vscode_arch}
+    node --max_old_space_size=2000 /usr/bin/gulp vscode-linux-${_vscode_arch}
 }
 
 package() {

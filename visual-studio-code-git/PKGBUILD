@@ -47,7 +47,7 @@ build() {
     cd "${srcdir}/vscode"
 
     ./scripts/npm.sh install
-    node --max_old_space_size=2000000 /usr/bin/gulp vscode-linux-${_vscode_arch}
+    node --max_old_space_size=2000 /usr/bin/gulp vscode-linux-${_vscode_arch}
 }
 
 package() {
