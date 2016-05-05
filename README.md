@@ -21,6 +21,9 @@ The `brackets` package has a few minor improvements over the one in the AUR. For
 ## codebox
 The `codebox` PKGBUILD is provided here with tweaks to make it build properly, unlike the one it is derived from in the AUR.
 
+## emacs / komodo-edit / lighttable
+These PKGBUILDs are designed to provide a desktop configuration file with built-in support for opening a range of different MIME types. 
+
 ## linux-ck
 The `linux-ck` package is kept here, it was taken from the AUR with the BFQ enabled.
 
@@ -43,6 +46,8 @@ makepkg -si --noconfirm
 ```
 
 The `gvim-git` package in this repository is a combination of the `gvim-git` and `vim-runtime-git` packages in the AUR. I merged these packages to save bandwidth and disk space, as both PKGBUILDs clone the same [GitHub repository](https://github.com/vim/vim). Likewise the `gvim` package in this repository is also a combination of the `gvim` and `vim-runtime` packages in the `[extra]` pacman repository, except it is updated more frequently. I have also added the `gvim` package to my [OBSAEB](https://build.opensuse.org/package/show/home:fusion809:arch_extra/gvim) it is also here because the OBS usually takes several hours before any commits I push there will result in an updated package in this repository.
+
+The desktop configuration files of `gvim`, `gvim-git` and `gvim-gtk3` have in-built MIME type support for several file formats. 
 
 ## visual-studio-code-git
 This PKGBUILD builds the Visual Studio Code (VScode) text editor from the latest source code in its official git repository. It can be installed simultaneously with the stable version mentioned below (unlike the `visual-studio-code-git` package in the AUR which cannot be installed simultaneously with `visual-studio-code-oss`).
