@@ -1,4 +1,6 @@
-# Maintainer: demian <mikar ατ gmx δοτ de>
+# Maintainer:  Brenton Horne <brentonhorne77 at gmail dot com>
+# Contributor: demian <mikar ατ gmx δοτ de>
+
 pkgname=blockify
 pkgver=3.6.1
 pkgrel=1
