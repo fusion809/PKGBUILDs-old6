@@ -2,7 +2,7 @@
 
 _pkgname=atom
 pkgname=atom-editor-dev
-_gitcommit=bb46933d589ffb4563ee19e830795673006802d4
+_gitcommit=aa221a88802abf4df9f1375c52c41d59cf0a12dd
 _git=$(echo ${_gitcommit} | cut -c1-7)
 pkgver=1.9.0.${_git}
 pkgrel=1
