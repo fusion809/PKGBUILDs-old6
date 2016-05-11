@@ -21,7 +21,7 @@ conflicts=("vim-minimal-git" "vim-git" "vim-runtime" "vim-runtime-git"
            "vim-minimal" "vim" "vim-python3" "gvim" "gvim-python3")
 source=("https://github.com/vim/vim/archive/v$pkgver.tar.gz"
         "gvim.desktop")
-sha256sums=('b6200e3feab3ea396c8edc0437bc44a82a780a2137b0525ed37f6b1e57e1b55d'
+sha256sums=('d91e9c3ad6203033a9124f4b720cf9de82cd75358374cd3b4bcde8838ea2871c'
             'b21fa0e4f63c6dc37be4cd5a7b938085449d02596c0dd0e8003cc3ab6277d4d4')
 install=gvim.install
 
